@@ -1,0 +1,458 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg5.jpg) no-repeat center center fixed;
+	font-family: sans-serif;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/*Styling for log in page*/
+
+.login-box {
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: silver;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: silver;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: silver;
+}
+
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-box button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 260px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box button[type="submit"]:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.login-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+
+.login-box a:hover{
+	cursor: pointer;
+	color: #39dc79;
+}
+
+/*Styling for new user registration*/
+
+.register-box{
+	width: 500px;
+	height: 1100px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 90%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.register-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.register-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.register-box input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.register-box button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 260px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.register-box button[type="submit"]:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.register-box input[type="radio"]{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+
+/*Styling for trip page*/
+
+/*Create trip*/
+
+.activity-box-create{
+	width: 280px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 35%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.activity-box-create button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 220px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.activity-box-create button[type="submit"]:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.activity-box-create h1{
+	margin-top: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+/*Manage trips*/
+
+.activity-box-manageTrips {
+	width: 280px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 60%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.activity-box-manageTrips button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 220px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.activity-box-manageTrips button[type="submit"]:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.activity-box-manageTrips h1{
+	margin-top: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+/*Create trip page activity box*/
+
+.activity-box-createTrip {
+	width: 500px;
+	height: 500px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.activity-box-createTrip button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 220px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.activity-box-createTrip button[type="submit"]:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.activity-box-createTrip h1{
+	margin-top: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.activity-box-createTrip input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.activity-box-createTrip p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.activity-box-createTrip input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*Date picker styling*/
+
+.activity-box-createTrip input[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+
+.activity-box-createTrip input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.activity-box-createTrip input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.activity-box-createTrip input[type="date"] {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+
+
+/*Main wrapper*/
+
+.main-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/*Navigation bar elements styling*/
+
+.main-wrapper ul li {
+    display: inline;
+}
+
+header nav {
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+header nav ul {
+	margin: 0;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+	margin-right: 0px;
+	padding-right: 80px;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 53px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+header nav li h1 {
+	padding-left: 230px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #39dc79;
+    font-weight: bold;
+    line-height: 53px;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
+
+header nav li label {
+	padding-left: 380px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #39dc79;
+    font-weight: bold;
+    line-height: 53px;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
+
+header .nav-bar form button {
+	float: right;
+	width: 130px;
+	height: 50px;
+	border: none;
+	background-color: black;
+	font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 53px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+header .nav-bar form button:hover {
+	cursor: pointer;
+	background: grey;
+	color: #000;
+}
+
+.main-container {
+	padding-top: 40px;
+}
+
+.main-container h2 {
+	font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*Styling for alert*/
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
