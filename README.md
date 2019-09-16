@@ -1,3 +1,3 @@
 # RallyBus
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/rallyBusLandingPage.png)
